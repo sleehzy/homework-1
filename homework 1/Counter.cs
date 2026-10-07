@@ -8,11 +8,11 @@ namespace homework_1
     {
         public void CountOccurrences()
         {
-            // Для примера создадим массив
+            
             int[] numberArray = { 1, 5, 3, 5, 2, 5, 8, 1 };
             Console.WriteLine("Массив: " + string.Join(", ", numberArray));
 
-            // Правило 6: Приглашение к вводу
+            
             Console.Write("Введите число для поиска: ");
             string inputString = Console.ReadLine();
 
@@ -20,7 +20,7 @@ namespace homework_1
             {
                 int occurrenceCount = 0;
 
-                // Подсчет вхождений
+                
                 foreach (int number in numberArray)
                 {
                     if (number == targetNumber)
